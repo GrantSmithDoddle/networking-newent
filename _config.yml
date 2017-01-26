@@ -17,8 +17,8 @@ countdown:
   minute: 0
 
 # Site owner
-owner: Networking Newent
-  name:
+owner:
+  name: Grant Smith
   email: grant@transitiongraphics.co.uk
   facebook: transitiongraphics
   linkedin: transitiongraphics
@@ -27,8 +27,8 @@ owner: Networking Newent
   pinterest: http://www.pinterest.com/granttransition
   #Aboutlink = German "Impressum", provide url and caption (eg "Impressum")
   aboutlink:
-    url:
-    caption:
+    url: http://www.transitiongraphics.co.uk/about-grant-smith-web-designer/
+    caption: Grant Smith | Web Designer
 
 
 # Jekyll configuration
