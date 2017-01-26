@@ -16,7 +16,7 @@ body {
 .container {
     overflow: hidden;
     /* we don't want the pseudo-elements sticking out */
-    
+
     max-width: 960px;
 }
 
@@ -209,4 +209,8 @@ section.footer p a {
     -webkit-transform-origin: 3% 0;
     -ms-transform-origin: 3% 0;
     transform-origin: 3% 0;
+}
+
+#mc-embedded-subscribe {
+    background-color: #f64747!important;
 }
