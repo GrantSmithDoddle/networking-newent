@@ -22,9 +22,9 @@ owner:
   email: grant@transitiongraphics.co.uk
   facebook: transitiongraphics
   linkedin: transitiongraphics
-  twitter: https://twitter.com/GrantTransition
-  google-plus: https://plus.google.com/+TransitiongraphicsCoUkGraphics
-  pinterest: http://www.pinterest.com/granttransition
+  twitter: GrantTransition
+  google-plus: +TransitiongraphicsCoUkGraphics
+  pinterest: granttransition
   #Aboutlink = German "Impressum", provide url and caption (eg "Impressum")
   aboutlink:
     url: http://www.transitiongraphics.co.uk/about-grant-smith-web-designer/
