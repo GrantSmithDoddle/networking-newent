@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>{{ page.title | default: site.title }}</title>
-    {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
-    {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
-    {% if site.author %}<meta name="author" content="{{ site.author }}" />{% endif %}
+    <title>Networking Newent</title>
+    <meta name="description" content="Currently under construction…">
+    
+    <meta name="author" content="Networking Newent" />
 
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
@@ -30,8 +30,8 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <h1><i class="fa fa-clock-o" style="color:white"></i></h1>
-                        <h2>{{ page.title | default: site.title }}</h2>
-                        <p>{{ page.excerpt | default: site.description }}
+                        <h2>Networking Newent</h2>
+                        <p>Currently under construction…
                         </p>
                     </div>
                 </div>
@@ -42,7 +42,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    {{ content }}
+                    <h1 id="website-is-coming-soon">Website is coming soon</h1>
+<p>Thanks for stopping by. As you can see, the website is not quite ready, we hope to have this up very soon. Networking Newent aims to give businesses of all shapes and sizes an opportunity to connect, representation to raise issues, provide mutual support and generate new business. We hope this is of interest, if you would like to be informed on the latest developments, please provide your detail below. We will only contact you with relevant information, and will not distribute your email address.</p>
+
                 </div>
             </div>
 
@@ -79,7 +81,7 @@
 
             <div class="row">
                 <div class="col-sm-12">
-                    <h3>{{ site.data.messages.locales[site.locale].Learn_More }}</h3>
+                    <h3>Learn More</h3>
                     <!-- not supported in Jekyll:
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Email">
@@ -89,24 +91,22 @@
                     </div> -->
                     <br>
                     <ul class="list-unstyled list-inline">
-                        {% if site.owner.email %}<li>
-                            <a href="mailto:{{ site.owner.email }}" target="_blank"><i class="fa fa-envelope-open" aria-hidden="true"></i></a>
-                        </li>{% endif %}
-                        {% if site.owner.facebook %}<li>
-                            <a href="http://facebook.com/{{ site.owner.facebook }}" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-                        </li>{% endif %}
-                        {% if site.owner.linkedin %}<li>
-                            <a href="https://uk.linkedin.com/in/{{ site.owner.facebook }}" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>{% endif %}
-                        {% if site.owner.twitter %}<li>
-                            <a href="http://twitter.com/{{ site.owner.twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>{% endif %}
-                        {% if site.owner.google_plus %}<li>
-                            <a href="https://google.com/{{ site.owner.google_plus }}" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li>{% endif %}
-                        {% if site.owner.pinterest %}<li>
-                            <a href="http://www.pinterest.com/{{ site.owner.pinterest }}" target="_blank"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
-                        </li>{% endif %}
+                        <li>
+                            <a href="mailto:grant@transitiongraphics.co.uk" target="_blank"><i class="fa fa-envelope-open" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="http://facebook.com/transitiongraphics" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://uk.linkedin.com/in/transitiongraphics" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="http://twitter.com/https://twitter.com/GrantTransition" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        
+                        <li>
+                            <a href="http://www.pinterest.com/http://www.pinterest.com/granttransition" target="_blank"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -118,9 +118,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-center">
-                    <p>2017 - {{ site.owner.name }}</p>
+                    <p>2017 - Networking Newent</p>
 
-                    <P> {% if site.owner.aboutlink.url %}<a href="{{ site.owner.aboutlink.url }}">{{ site.owner.aboutlink.caption | default: "About" }}</a> | {% endif %}
+                    <P> <a href="http://www.transitiongraphics.co.uk/about-grant-smith-web-designer/">Grant Smith | Web Designer</a> | 
                         Page and Design by <a target="_blank" href="http://www.transitiongraphics.co.uk/">Transition Graphics</a></P>
                 </div>
             </div>
@@ -131,9 +131,9 @@
 
     <script>
         $('.countdown').ClassyCountdown({
-            theme: "{{ site.countdown.theme }}",
+            theme: "red",
             now: $.now() / 1000,
-            end: Date.UTC({{ site.countdown.year }}, {{ site.countdown.month }} - 1, {{ site.countdown.day }}, {{ site.countdown.hour }}, {{ site.countdown.minute }}, 0) / 1000
+            end: Date.UTC(2017, 5 - 1, 31, 0, 0, 0) / 1000
         });
     </script>
 </body>
