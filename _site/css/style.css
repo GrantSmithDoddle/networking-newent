@@ -49,11 +49,12 @@ h1#website-is-coming-soon {
 }
 
 header i.fa {
-    font-size: 2em;
+    font-size: 76px;
+    margin: 20px 0 10px 0;
     color: : rga(1, 1, 1) !important;
 }
 
-header h2 {
+header h1 {
     font-family: 'Open Sans';
     font-weight: 800;
     color: white;
@@ -181,7 +182,7 @@ section.footer p a {
     padding-top: 5px;
     background: #43a193;
     color: white;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .footer::before,
@@ -209,6 +210,10 @@ section.footer p a {
     -webkit-transform-origin: 3% 0;
     -ms-transform-origin: 3% 0;
     transform-origin: 3% 0;
+}
+
+.footer h3 {
+    display: none;
 }
 
 #mailchimp input.email {
