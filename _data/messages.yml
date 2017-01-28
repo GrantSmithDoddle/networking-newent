@@ -9,7 +9,7 @@ locales:
     Hours: "Hours"
     Minutes: "Minutes"
     Seconds: "Seconds"
-    Learn_More: "Connect with Web Designer"
+    Learn_More: "connect…"
   en_US:
     <<: *DEFAULT_EN     # use English translation for en_US
   en_UK:
